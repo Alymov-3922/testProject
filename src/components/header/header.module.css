@@ -1,0 +1,42 @@
+.ava_wrap {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+}
+
+.item {
+    display: flex;
+    margin-left: 50px;
+    font-size: 38px;
+    font-weight: normal;
+    align-items: center;
+}
+
+.ava_img {
+    width: 165px;
+    height: 170px;
+    padding: 15px;
+    background-color: #5c8f79f8;
+}
+
+.ava_img>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: solid white;
+}
+
+.lenta {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #5c8f79f8;
+    border-right: 80px solid transparent;
+}
+
+.lenta1 {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid#5c8f79f8;
+    border-right: 80px solid transparent;
+}
